@@ -1,4 +1,4 @@
-# database-sanitizer
+# database_sanitizer
 Sample MySQL Database Sanitization Process
 
 # Quick Start Guide
