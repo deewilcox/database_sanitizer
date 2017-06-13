@@ -37,7 +37,7 @@ fi
 
 # Create databases and definers
 mysql --login-path=$login_path < /data/sites/database_sanitizer/databases/create.sql
-mysql --login-path=$login_path < /data/sites/database_sanitizer/databases/definers.sql
+mysql --login-path=$login_path < /data/sites/database_sanitizer/databases/grants.sql
 
 # Loop through sanitizer routines directory to determine what we can sanitize
 cd /data/sites/database_sanitizer/routines
